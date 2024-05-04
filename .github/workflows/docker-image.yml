@@ -22,4 +22,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push Image to Docker Hub
-      run: docker push it21048500/train-service
+      run: docker push it21048500/ctse_destination_service
